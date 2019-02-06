@@ -28,17 +28,13 @@
 </template>
 
 <script>
-export default {
-  methods: {
-    goTo (path) {
-      this.$router.replace(path)
-    },
-    isCurrent (path) {
-      // console.log(this.$route.path)
-      return this.$route.path === path
+  export default {
+    methods: {
+      goTo (path) {
+        this.$router.replace(path)
+      }
     }
   }
-}
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
